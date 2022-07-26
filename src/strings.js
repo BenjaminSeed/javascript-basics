@@ -1,5 +1,5 @@
 function sayHello (string) {
-  console.log = sayHello
+  return `Hello, ${string}!`
 };
 
 function uppercase (string) {
